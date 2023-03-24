@@ -14,6 +14,7 @@ body {
     padding: 0px;
     width: 100%;
     background-color: white;
+    font-family: 'Rubik Mono One', sans-serif;
 
 }
 
@@ -33,12 +34,17 @@ div[id*="wrapper-content"]{
 div[id*="header-content"]{
     display: flex;
     border: none;
+    height: 58px;
     border-bottom: solid rgba(143, 148, 143, 0.384) 1px;
 }
 
 div[id*="title-content"]{
     padding: 0px 10px;
     width: 430px;
+  
+    font-family: 'Kalam', cursive;
+    font-size: 16px;
+
 }
 div[id*="numbre-content"]{
     color: grey;
@@ -46,14 +52,16 @@ div[id*="numbre-content"]{
 img[id*="img-content"]{
     object-fit: cover;
 	object-position: center;
-    margin-top: 10px;
+    margin-top: 5px;
     width: 500px;
     height: 270px;  
 }
 div[id*="wrapper-footer"]{
-    margin-top: 5px;
+   
     border: none;
     border-top: solid rgba(143, 148, 143, 0.384) 1px; 
+    font-family: 'Farsan', cursive;
+    font-size: 18px;
 }
 p[id*="txt-footer"]
 {
